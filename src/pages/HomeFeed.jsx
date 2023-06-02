@@ -26,7 +26,7 @@ const HomeFeed = () => {
 
 		let config = {
 			method: "get",
-			url: "http://localhost:3000/photos",
+			url: "https://insta-mars-rover.onrender.com/photos",
 			headers: {},
 			params: { page: scrollPage },
 		}

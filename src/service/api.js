@@ -1,7 +1,8 @@
 import axios from "axios"
 
 const service = axios.create({
-	baseURL: import.meta.env.VITE_BACKEND_URL || "http://localhost:3000",
+	baseURL:
+		import.meta.env.VITE_BACKEND_URL || "https://insta-mars-rover.onrender.com",
 })
 
 service.interceptors.request.use((interceptedRequest) => {
